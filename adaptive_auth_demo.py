@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Adaptive Authentication Demo – Chat Application")
+st.title("Adaptive Authentication Demo")
 
 st.markdown(
     """
@@ -145,4 +145,5 @@ else:
 # -------------------------------
 st.markdown("---")
 st.caption("Demo use-case: Adaptive Authentication | Zero-Trust | Risk-Based Access Control")
+
 
