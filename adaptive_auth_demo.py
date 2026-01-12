@@ -101,13 +101,13 @@ if not st.session_state.authenticated:
                 st.error("Incorrect Answer")
 
 else:
-    st.success("User Authenticated – Chat Unlocked 🔓")
+    st.success("User Authenticated – Chat Unlocked")
 
 # -------------------------------
 # Chat Application
 # -------------------------------
 st.markdown("---")
-st.subheader("💬 Secure Chat Application")
+st.subheader("Secure Chat Application")
 
 if st.session_state.authenticated:
 
@@ -145,5 +145,6 @@ else:
 # -------------------------------
 st.markdown("---")
 st.caption("Demo use-case: Adaptive Authentication | Zero-Trust | Risk-Based Access Control")
+
 
 
