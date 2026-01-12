@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🔐 Adaptive Authentication Demo – Chat Application")
+st.title("Adaptive Authentication Demo – Chat Application")
 
 st.markdown(
     """
@@ -29,7 +29,7 @@ if "chat" not in st.session_state:
 # -------------------------------
 # Sidebar: Contextual signals
 # -------------------------------
-st.sidebar.header("🧠 Contextual Signals (Simulated)")
+st.sidebar.header("Contextual Signals (Simulated)")
 
 same_ip = st.sidebar.checkbox("Same Internet / IP Address")
 same_browser = st.sidebar.checkbox("Same Browser")
@@ -66,7 +66,7 @@ auth_method = determine_auth_method(signal_count)
 # -------------------------------
 # Authentication Panel
 # -------------------------------
-st.subheader("🛂 Authentication Checkpoint")
+st.subheader("Authentication Checkpoint")
 
 if not st.session_state.authenticated:
 
@@ -145,3 +145,4 @@ else:
 # -------------------------------
 st.markdown("---")
 st.caption("Demo use-case: Adaptive Authentication | Zero-Trust | Risk-Based Access Control")
+
